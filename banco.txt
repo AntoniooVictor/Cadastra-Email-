@@ -1,0 +1,9 @@
+//banco de dados
+
+CREATE DATABASE `empresa`;
+
+CREATE TABLE  `empresa`.`cliente` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `email` varchar(200) NOT NULL default '',
+  PRIMARY KEY  (`ID_USUARIO`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
